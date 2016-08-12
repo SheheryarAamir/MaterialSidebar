@@ -178,12 +178,6 @@
     <Resource Include="Images\Dark24.png" />
     <Resource Include="Images\Light24.png" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\DroidManager\NanoMvvm\NanoMvvm.Wpf.csproj">
-      <Project>{cda9ac48-1741-4c5c-8546-3c0c4051c7e6}</Project>
-      <Name>NanoMvvm.Wpf</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
