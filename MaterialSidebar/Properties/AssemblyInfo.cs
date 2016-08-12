@@ -2,12 +2,12 @@
 using System.Runtime.InteropServices;
 using System.Windows;
 
-[assembly: AssemblyTitle("MaterialMenu")]
-[assembly: AssemblyDescription("App-like side menu")]
+[assembly: AssemblyTitle("MaterialSidebar")]
+[assembly: AssemblyDescription("Material Sidebar based on MaterialMenu")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MaterialMenu")]
-[assembly: AssemblyCopyright("Beto Rodriguez Copyright ©  2015")]
+[assembly: AssemblyCompany("IridiumIon Software")]
+[assembly: AssemblyProduct("MaterialSidebar")]
+[assembly: AssemblyCopyright("© IridiumIon Software 2016, Beto Rodriguez Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]

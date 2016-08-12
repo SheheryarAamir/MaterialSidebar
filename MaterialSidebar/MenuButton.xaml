@@ -1,9 +1,9 @@
-﻿<UserControl x:Class="MaterialMenu.MenuButton"
+﻿<UserControl x:Class="MaterialSidebar.MenuButton"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:local="clr-namespace:MaterialMenu"
+             xmlns:local="clr-namespace:MaterialSidebar"
              mc:Ignorable="d"
              x:Name="MenuButtonRoot"
              DataContext="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type UserControl}}, Path=Color}"
@@ -12,9 +12,9 @@
              MouseLeave="MenuButtonBase_OnMouseLeave">
     <Grid x:Name="Grid">
         <!--
-        <Grid.InputBindings>
-            <MouseBinding Command="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:MenuButton}}, Path=SelectedCommand}" MouseAction="LeftClick" />
-        </Grid.InputBindings>
+             <Grid.InputBindings>
+             <MouseBinding Command="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:MenuButton}}, Path=SelectedCommand}" MouseAction="LeftClick" />
+             </Grid.InputBindings>
         -->
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
